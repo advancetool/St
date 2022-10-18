@@ -1,0 +1,35 @@
+<html>
+<head>
+
+
+
+</head>
+https://demo.guru99.com/test/selenium-xpath.html
+
+
+xpath ==
+tasting tag ==/html/body/div[4]/div[1]/div/h4[1]/b
+
+sap node == /html/body/div[4]/div[2]/div/h4[1]/b
+ai node ==/html/body/div[4]/div[3]/div/h4[1]/b
+web path == /html/body/div[4]/div[3]/div/h4[2]/b
+
+
+sap=  //div[@class='row featured-boxes']//div[2]//h4[1]//b[1]
+//div[@class='featured-box columnsize1]//h4[2]//b[1]
+
+
+//input[@name='uid']
+//input[@type='text']
+
+/html/body/form/table/tbody/tr[1]/td[2]/input
+
+
+button == //*[contains(@name,'btn')]
+
+message ==//*[contains(@id,'message')]
+or condition== //*[@type=  "Submit" and @name="btnLogine"]
+
+labelm== //label[starts-with(@id ,'message')]
+
+label == //td[text()='UserID']

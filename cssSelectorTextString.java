@@ -16,15 +16,15 @@ public class cssSelectorTextString {
 			driver.get("https://demoqa.com/automation-practice-form");
 			
 			WebElement firstname = driver.findElement(By.cssSelector("input[id^='fir']"));
-	        firstname.sendKeys("Vitthal");
+	        firstname.sendKeys("Anil");
 	        
 	        WebElement firstname1 = driver.findElement(By.cssSelector("input[id$='fir']"));
-	        firstname1.sendKeys("Rawool");
+	        firstname1.sendKeys("Rode");
 	        
 	        //
-	        WebElement firstname2 = driver.findElement(By.cssSelector("input[id*=erNa']"));
-	        firstname2.sendKeys("Rawool");
-	        
+//	        WebElement firstname2 = driver.findElement(By.cssSelector("input[id*=erNa']"));
+//	        firstname2.sendKeys("Rawool");
+//	        
 	        
 	        
 		}
