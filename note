@@ -1,0 +1,13 @@
+clickAndHold ()
+
+contexClick()
+
+doublClick ()
+
+dragAndDroup(source,target) 
+
+dragAndDroupBY(source ,x-offset,y-offset)
+
+KeyDown()// Alt+ctro+shift
+
+sendkeys(onElement,Sequance)

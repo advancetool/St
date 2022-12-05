@@ -1,0 +1,10 @@
+void dismiss()  -- Cancal  --> driver.switchTo().alert().dismiss();
+
+void accepts()   -- OK  --> driver.switchTo().alert().accepts();
+
+void getText()  --alert Msg --> driver.switchTo().alert().getText();
+
+void Send Keys(String string To Send)  --- send data to Alert box driver.switchTo().alert().sendKeys("Text");
+
+selenum.dev
+

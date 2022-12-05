@@ -1,4 +1,4 @@
-package Second;
+package praticalno1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ public class cssSelectorTextString {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver","E:\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","/home/anil/Selenium/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		
 			
@@ -18,16 +18,15 @@ public class cssSelectorTextString {
 			WebElement firstname = driver.findElement(By.cssSelector("input[id^='fir']"));
 	        firstname.sendKeys("Anil");
 	        
-	        WebElement firstname1 = driver.findElement(By.cssSelector("input[id$='fir']"));
-	        firstname1.sendKeys("Rode");
+	        WebElement middleName = driver.findElement(By.cssSelector("input[id$='fir']"));
+	        middleName.sendKeys("Nanaso");
 	        
 	        //
-//	        WebElement firstname2 = driver.findElement(By.cssSelector("input[id*=erNa']"));
-//	        firstname2.sendKeys("Rawool");
-//	        
+	        WebElement firstname2 = driver.findElement(By.cssSelector("input[id*=erNa']"));
+	        firstname2.sendKeys("Rode");
+	        
 	        
 	        
 		}
   }
-
 
